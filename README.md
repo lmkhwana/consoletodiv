@@ -2,7 +2,7 @@
 
 [![install size](https://packagephobia.com/badge?p=@lmkhwana/consoletodiv)](https://packagephobia.com/result?p=@lmkhwana/consoletodiv)
 
-Displays console messages in a div.
+Displays console messages in an HTML element.
 
 ## Install
 
@@ -11,6 +11,41 @@ $ npm install @lmkhwana/consoletodiv
 ```
 
 ## Usage
+
+- Using CDN in vanilla JS
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<pre id="logger" style="text-transform:capitalize;
+                          background-color: #f5f5f5;
+                          margin-bottom: 0;"></pre>
+
+<script src="https://raw.githack.com/lmkhwana/consoletodiv/main/static.js"></script>
+<script>
+  /*
+  * INITIALIZE
+  */
+    consoletodiv('logger')  // Logger is the id of the 'pre'
+    
+  /*
+  * TEST
+  */
+    console.log('testing')
+</script>
+</body>
+</html>
+
+```
+When you run it, the console messages should appear.
+
+![snapshot - vannila](snapvanilla.png)
 
 - Angular 
 
