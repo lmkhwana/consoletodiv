@@ -104,7 +104,7 @@ consoletodiv('logger') // Logger is the id of the 'pre' on the App.vue
                           background-color: #f5f5f5;
                           margin-bottom: 0;"></pre>
 
-<script src="https://raw.githack.com/lmkhwana/consoletodiv/main/static.js"></script>
+<script src="https://rawcdn.githack.com/lmkhwana/consoletodiv/817bdd2100537c7536332ad963a298fa274fe909/static.js"></script>
 <script>
   /*
   * INITIALIZE
