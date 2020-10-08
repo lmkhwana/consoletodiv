@@ -1,6 +1,6 @@
 {
   "name": "@lmkhwana/consoletodiv",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "Display console messages in a div",
   "license": "MIT",
   "repository": "lmkhwana/consoletodiv",
