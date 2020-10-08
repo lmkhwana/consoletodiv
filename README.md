@@ -18,7 +18,7 @@ $ npm install @lmkhwana/consoletodiv
 <!-- This file is app.component.html -->
 <div class="container-fluid">
   <router-outlet></router-outlet>
-  
+  ...
   <!-- Add this code block -->
   <pre id="logger" style="text-transform:capitalize;
                           background-color: #f5f5f5;
