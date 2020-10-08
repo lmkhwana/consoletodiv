@@ -12,7 +12,7 @@ $ npm install @lmkhwana/consoletodiv
 
 ## Usage
 
-In this example we are gonna be using Angular 9
+- Angular 
 
 ```html
 <!-- This file is app.component.html -->
@@ -45,9 +45,39 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     consoletodiv('logger'); // Logger is the id of the 'pre' on the app.component.html
-    console.log('testing');
   }
 }
+
+- Vue 
+
+```html
+<!-- This file is app.vue -->
+<template>
+  <div id="app">
+  ...
+    <!-- Add this code block -->
+    <pre id="logger" style="text-transform:capitalize;
+                          background-color: #f5f5f5;
+                          margin-bottom: 0;"></pre>
+  </div>
+</template>
+
+```
+
+```js
+// This file is main.js
+
+import Vue from 'vue'
+import App from './App.vue'
+...
+import consoletodiv  from '@lmkhwana/consoletodiv';
+
+Vue.config.productionTip = false
+
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+consoletodiv('logger') // Logger is the id of the 'pre' on the App.vue
 
 ```
 
