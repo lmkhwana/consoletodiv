@@ -1,5 +1,5 @@
-module.exports = function consoletodiv(doc, id) {
-    const log = doc.querySelector('#' + id);
+module.exports = function consoletodiv(id) {
+    const log = document.querySelector('#' + id);
     ['log','debug','info','warn','error'].forEach(function (verb) {
         console[verb] = (function (method, verb, log) {
             return function () {
