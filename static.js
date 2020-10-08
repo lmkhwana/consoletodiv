@@ -11,3 +11,4 @@ function consoletodiv(id) {
             };
         })(console[verb], verb, log);
     });
+}
