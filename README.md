@@ -53,4 +53,4 @@ export class AppComponent implements OnInit {
 
 When you run it, the console messages should appear at the bottom of your page.
 
-![snapshot of console messages](https://github.com/lmkhwana/consoletodiv/blob/master/snap.png?raw=true)
+![snapshot](snap.png)
