@@ -1,0 +1,14 @@
+{
+  "name": "@lmkhwana/consoletodiv",
+  "version": "2.0.0",
+  "description": "Display console messages in a div",
+  "license": "MIT",
+  "repository": "lmkhwana/consoletodiv",
+  "main": "index.js",
+  "keywords": [
+    "tiny",
+    "npm",
+    "package",
+    "bamblehorse"
+  ]
+}
