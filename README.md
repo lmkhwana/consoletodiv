@@ -48,6 +48,9 @@ export class AppComponent implements OnInit {
   }
 }
 ```
+When you run it, the console messages should appear at the bottom of your page.
+
+![snapshot](snapangular.png)
 
 - Vue 
 
@@ -81,7 +84,5 @@ new Vue({
 consoletodiv('logger') // Logger is the id of the 'pre' on the App.vue
 
 ```
+![snapshot](snapvue.png)
 
-When you run it, the console messages should appear at the bottom of your page.
-
-![snapshot](snap.png)
