@@ -12,7 +12,7 @@ $ npm install @lmkhwana/consoletodiv
 
 ## Usage
 
-In this example we are gonne be using Angular 9
+In this example we are gonna be using Angular 9
 
 ```html
 <!-- This file is app.component.html -->
