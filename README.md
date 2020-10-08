@@ -24,6 +24,7 @@ $ npm install @lmkhwana/consoletodiv
 </head>
 <body>
   ...
+<!-- Add this code block -->
 <pre id="logger" style="text-transform:capitalize;
                           background-color: #f5f5f5;
                           margin-bottom: 0;"></pre>
