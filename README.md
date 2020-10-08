@@ -47,6 +47,7 @@ export class AppComponent implements OnInit {
     consoletodiv('logger'); // Logger is the id of the 'pre' on the app.component.html
   }
 }
+```
 
 - Vue 
 
