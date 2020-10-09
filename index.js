@@ -11,4 +11,12 @@ module.exports = function consoletodiv(id) {
             };
         })(console[verb], verb, log);
     });
+
+    console.log = function (message) {
+        if (typeof message == 'object') {
+            log.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
+        } else {
+            log.innerHTML += message + '<br />';
+        }
+    }
 };
