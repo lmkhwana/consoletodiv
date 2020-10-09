@@ -20,9 +20,9 @@ $ npm install @lmkhwana/consoletodiv
   <router-outlet></router-outlet>
   ...
   <!-- Add this code block -->
-  <pre id="logger" style="text-transform:capitalize;
-                          background-color: #f5f5f5;
-                          margin-bottom: 0;"></pre>
+  <div class="scroller" style="overflow: auto; height: 100px;">
+      <pre id="logger" style="text-transform:capitalize; background-color: #f5f5f5; margin-bottom: 0;"></pre>
+  </div>
 </div>
 
 ```
@@ -60,9 +60,9 @@ When you run it, the console messages should appear at the bottom of your page.
   <div id="app">
   ...
     <!-- Add this code block -->
-    <pre id="logger" style="text-transform:capitalize;
-                          background-color: #f5f5f5;
-                          margin-bottom: 0;"></pre>
+    <div class="scroller" style="overflow: auto; height: 100px;">
+        <pre id="logger" style="text-transform:capitalize; background-color: #f5f5f5; margin-bottom: 0;"></pre>
+    </div>
   </div>
 </template>
 
@@ -100,9 +100,9 @@ consoletodiv('logger') // Logger is the id of the 'pre' on the App.vue
 <body>
   ...
 <!-- Add this code block -->
-<pre id="logger" style="text-transform:capitalize;
-                          background-color: #f5f5f5;
-                          margin-bottom: 0;"></pre>
+  <div class="scroller" style="overflow: auto; height: 100px;">
+        <pre id="logger" style="text-transform:capitalize; background-color: #f5f5f5; margin-bottom: 0;"></pre>
+  </div>
 
 <script src="https://rawcdn.githack.com/lmkhwana/consoletodiv/817bdd2100537c7536332ad963a298fa274fe909/static.js"></script>
 <script>
