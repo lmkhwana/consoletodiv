@@ -14,7 +14,19 @@ module.exports = function consoletodiv(id) {
 
     console.log = function (message) {
         if (typeof message == 'object') {
-            log.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
+            //log.style
+            log.innerHTML += '<code style="    background: #f4f4f4;\n' +
+                '    border-left: 3px solid grey;\n' +
+                '    color: #666;\n' +
+                '    page-break-inside: avoid;\n' +
+                '    font-family: monospace;\n' +
+                '    font-size: 15px;\n' +
+                '    line-height: 1.6;\n' +
+                '    margin-bottom: 1.6em;\n' +
+                '    max-width: 100%;\n' +
+                '    overflow: auto;\n' +
+                '    display: block;\n' +
+                '    word-wrap: break-word;"> Object: ' + (JSON && JSON.stringify ? JSON.stringify(message) : message) + '</code>' + '<br />';
         } else {
             log.innerHTML += message + '<br />';
         }
