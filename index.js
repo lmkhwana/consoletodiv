@@ -22,7 +22,6 @@ module.exports = function consoletodiv(id) {
                 '    font-family: monospace;\n' +
                 '    font-size: 15px;\n' +
                 '    line-height: 1.6;\n' +
-                '    margin-bottom: 1.6em;\n' +
                 '    max-width: 100%;\n' +
                 '    overflow: auto;\n' +
                 '    display: block;\n' +
