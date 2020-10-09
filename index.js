@@ -25,7 +25,7 @@ module.exports = function consoletodiv(id) {
                 '    max-width: 100%;\n' +
                 '    overflow: auto;\n' +
                 '    display: block;\n' +
-                '    word-wrap: break-word;"> Object: ' + (JSON && JSON.stringify ? JSON.stringify(message) : message) + '</code>' + '<br />';
+                '    word-wrap: break-word;"> Object: ' + (JSON && JSON.stringify ? JSON.stringify(message) : message) + '</code>';
         } else {
             log.innerHTML += message + '<br />';
         }
